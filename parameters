@@ -1,0 +1,116 @@
+ceiling256_v2
+
++-------------------+------------+
+|      Modules      | Parameters |
++-------------------+------------+
+|    conv1.weight   |    600     |
+|     conv1.bias    |     8      |
+|    conv2.weight   |    3200    |
+|     conv2.bias    |     16     |
+|    conv3.weight   |   12800    |
+|     conv3.bias    |     32     |
+|    conv4.weight   |   51200    |
+|     conv4.bias    |     64     |
+|    conv5.weight   |   102400   |
+|     conv5.bias    |     64     |
+| lstm.weight_ih_l0 |  67371264  |
+| lstm.weight_hh_l0 |  67371264  |
+|  lstm.bias_ih_l0  |   16416    |
+|  lstm.bias_hh_l0  |   16416    |
+| linear_out.weight |   28728    |
+|  linear_out.bias  |     7      |
++-------------------+------------+
+Total Trainable Params: 134974479
+
+ceiling256
+
++-------------------+------------+
+|      Modules      | Parameters |
++-------------------+------------+
+|    conv1.weight   |    150     |
+|     conv1.bias    |     2      |
+|    conv2.weight   |     50     |
+|     conv2.bias    |     1      |
+|    conv3.weight   |     25     |
+|     conv3.bias    |     1      |
+|    conv4.weight   |     25     |
+|     conv4.bias    |     1      |
+| lstm.weight_ih_l0 |   278784   |
+| lstm.weight_hh_l0 |   278784   |
+|  lstm.bias_ih_l0  |    1056    |
+|  lstm.bias_hh_l0  |    1056    |
+| linear_out.weight |    1848    |
+|  linear_out.bias  |     7      |
++-------------------+------------+
+Total Trainable Params: 561790
+
+ceiling128
+
++-------------------+------------+
+|      Modules      | Parameters |
++-------------------+------------+
+|    conv1.weight   |     54     |
+|     conv1.bias    |     2      |
+|    conv2.weight   |     18     |
+|     conv2.bias    |     1      |
+|    conv3.weight   |     9      |
+|     conv3.bias    |     1      |
+| lstm.weight_ih_l0 |   278784   |
+| lstm.weight_hh_l0 |   278784   |
+|  lstm.bias_ih_l0  |    1056    |
+|  lstm.bias_hh_l0  |    1056    |
+| linear_out.weight |    1848    |
+|  linear_out.bias  |     7      |
++-------------------+------------+
+Total Trainable Params: 561620
+
+ceiling256v4(last layer with 4 channels)
++-------------------+------------+
+|      Modules      | Parameters |
++-------------------+------------+
+|    conv1.weight   |    600     |
+|     conv1.bias    |     8      |
+|    conv2.weight   |    3200    |
+|     conv2.bias    |     16     |
+|    conv3.weight   |   12800    |
+|     conv3.bias    |     32     |
+|    conv4.weight   |   51200    |
+|     conv4.bias    |     64     |
+|    conv5.weight   |    6400    |
+|     conv5.bias    |     4      |
+| lstm.weight_ih_l0 |   278784   |
+| lstm.weight_hh_l0 |   278784   |
+|  lstm.bias_ih_l0  |    1056    |
+|  lstm.bias_hh_l0  |    1056    |
+| linear_out.weight |    1848    |
+|  linear_out.bias  |     7      |
++-------------------+------------+
+Total Trainable Params: 635859
+
+
+ceiling256v2 with maxpooling
++-------------------+------------+
+|      Modules      | Parameters |
++-------------------+------------+
+|    conv1.weight   |    108     |
+|     conv1.bias    |     4      |
+|    conv2.weight   |    144     |
+|     conv2.bias    |     4      |
+|    conv3.weight   |    288     |
+|     conv3.bias    |     8      |
+|    conv4.weight   |    576     |
+|     conv4.bias    |     8      |
+|    conv5.weight   |    1152    |
+|     conv5.bias    |     16     |
+|    conv6.weight   |    2304    |
+|     conv6.bias    |     16     |
+| lstm.weight_ih_l0 |   278784   |
+| lstm.weight_hh_l0 |   278784   |
+|  lstm.bias_ih_l0  |    1056    |
+|  lstm.bias_hh_l0  |    1056    |
+| linear_out.weight |    1848    |
+|  linear_out.bias  |     7      |
++-------------------+------------+
+Total Trainable Params: 566163
+
+
